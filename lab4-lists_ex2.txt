@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+
+###########################################################################
+
+# Lists Ex2
+#----------
+
+#a. Create a list with five elements
+#b. Use append to add two elements to the list
+#c. Use pop to remove the first element
+#d. find the length of the list
+#e. sort the list
+
+
+###########################################################################
+
+
+a_list = ['toy','car','bike','pc','laptop']
+print a_list
+
+a_list.append('car2')
+print a_list
+
+a_list.append('pc2')
+print a_list
+
+a_list.pop(0)
+print a_list
+
+print "Length of list: {}".format(len(a_list))
+a_list.sort()
+
+print a_list
+
+
